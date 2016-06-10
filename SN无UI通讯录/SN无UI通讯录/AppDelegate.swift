@@ -14,19 +14,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	var window: UIWindow?
 
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-		// Override point for customization after application launch.
-
-//		let status = ABAddressBookGetAuthorizationStatus()
-//
-//		if status == ABAuthorizationStatus.NotDetermined {
-//			let addressBook = ABAddressBookCreateWithOptions(nil, nil).takeRetainedValue()
-//
-//			ABAddressBookRequestAccessWithCompletion(addressBook, { (granted, error) in
-//				if granted == true {
-//					print("授权成功")
-//				}
-//			})
-//		}
+		
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        let tabBarController = SNTabBarController()
+        
+        window?.rootViewController = tabBarController;
+        
+        window?.makeKeyAndVisible()
+        
 		return true
 	}
 

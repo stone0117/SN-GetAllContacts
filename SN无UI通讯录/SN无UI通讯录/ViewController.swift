@@ -22,7 +22,10 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
-		imageView.frame = CGRect(x: 20, y: 20, width: 200, height: 200)
+        
+        self.navigationItem.title = "QRCode & Contacts"
+        
+		imageView.frame = CGRect(x: 20, y: 100, width: 200, height: 200)
 
 		let manager = SNQRCodeManager()
 		// let image = manager.generateQRCode("项羽,刘邦...", size: imageView.bounds.size)
