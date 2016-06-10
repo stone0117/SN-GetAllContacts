@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E02B2581D0B2A9700B03F7D /* SNHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E02B2571D0B2A9700B03F7D /* SNHistoryViewController.swift */; };
 		8EA782FC1D09E64600196F39 /* SNContactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA782FB1D09E64600196F39 /* SNContactsManager.swift */; };
 		8ED0BBE11D0B0F3F002BB170 /* SNQRCodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0BBE01D0B0F3F002BB170 /* SNQRCodeManager.swift */; };
 		8ED0BC031D0B156A002BB170 /* SNLocalAuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED0BC021D0B156A002BB170 /* SNLocalAuthenticationManager.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E02B2571D0B2A9700B03F7D /* SNHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNHistoryViewController.swift; sourceTree = "<group>"; };
 		8EA782FB1D09E64600196F39 /* SNContactsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNContactsManager.swift; sourceTree = "<group>"; };
 		8ED0BBE01D0B0F3F002BB170 /* SNQRCodeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNQRCodeManager.swift; sourceTree = "<group>"; };
 		8ED0BC021D0B156A002BB170 /* SNLocalAuthenticationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNLocalAuthenticationManager.swift; sourceTree = "<group>"; };
@@ -67,9 +69,10 @@
 			isa = PBXGroup;
 			children = (
 				8EE79D021D09D50200677334 /* AppDelegate.swift */,
-				8ED0BC041D0B15DE002BB170 /* SNTabBarController.swift */,
 				8EE79D041D09D50200677334 /* ViewController.swift */,
+				8ED0BC041D0B15DE002BB170 /* SNTabBarController.swift */,
 				8ED0BC061D0B16AD002BB170 /* SNSearchViewController.swift */,
+				8E02B2571D0B2A9700B03F7D /* SNHistoryViewController.swift */,
 				8ED579081D09E406000E49F7 /* SNContact.swift */,
 				8EA782FB1D09E64600196F39 /* SNContactsManager.swift */,
 				8ED0BBE01D0B0F3F002BB170 /* SNQRCodeManager.swift */,
@@ -158,6 +161,7 @@
 				8EE79D051D09D50200677334 /* ViewController.swift in Sources */,
 				8EA782FC1D09E64600196F39 /* SNContactsManager.swift in Sources */,
 				8ED579091D09E406000E49F7 /* SNContact.swift in Sources */,
+				8E02B2581D0B2A9700B03F7D /* SNHistoryViewController.swift in Sources */,
 				8ED0BC071D0B16AD002BB170 /* SNSearchViewController.swift in Sources */,
 				8ED0BC031D0B156A002BB170 /* SNLocalAuthenticationManager.swift in Sources */,
 				8EE79D031D09D50200677334 /* AppDelegate.swift in Sources */,
